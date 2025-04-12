@@ -1,0 +1,29 @@
+[
+    {
+        "question": "What is printed by the following statements?",
+        "code": "d = {\"name\": \"Alice\", \"age\": 25}\nprint(d.get(\"name\"))\nprint(d.get(\"gender\", \"Not Specified\"))",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Alice\nNot Specified",
+                "correct": true,
+                "feedback": "Correct! The get() method returns the value for 'name' which is 'Alice' and returns the default 'Not Specified' for the missing key 'gender'."
+            },
+            {
+                "answer": "Alice\nNone",
+                "correct": false,
+                "feedback": "Incorrect. Since a default value is provided for the 'gender' key, get() returns 'Not Specified' instead of None."
+            },
+            {
+                "answer": "None\nNot Specified",
+                "correct": false,
+                "feedback": "Incorrect. The key 'name' exists in the dictionary, so it returns 'Alice', not None."
+            },
+            {
+                "answer": "Error",
+                "correct": false,
+                "feedback": "Incorrect. The get() method safely returns a default value for missing keys instead of raising an error."
+            }
+        ]
+    }
+]

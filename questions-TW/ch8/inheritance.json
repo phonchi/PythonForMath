@@ -1,0 +1,29 @@
+[
+    {
+        "question": "What is printed by the following statements?",
+        "code": "class Engine:\n    def start(self):\n        return \"Engine started\"\n\nclass Car:\n    def __init__(self):\n        self.engine = Engine()  # Composition: Car has an Engine\n    def start(self):\n        return self.engine.start()\n\nclass ElectricCar(Car):  # Inheritance: ElectricCar inherits from Car\n    def start(self):\n        return \"ElectricCar ready\"\n\ncar = Car()\nelectric_car = ElectricCar()\nprint(car.start())\nprint(electric_car.start())",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "code": "Engine started\nElectricCar ready",
+                "correct": true,
+                "feedback": "Correct! The Car class uses composition by containing an Engine instance, so car.start() returns 'Engine started'. The ElectricCar class inherits from Car and overrides the start() method, so electric_car.start() returns 'ElectricCar ready'."
+            },
+            {
+                "code": "Engine started\nEngine started",
+                "correct": false,
+                "feedback": "Incorrect. While Car uses composition to call Engine.start(), ElectricCar overrides the start() method to return 'ElectricCar ready'."
+            },
+            {
+                "code": "ElectricCar ready\nElectricCar ready",
+                "correct": false,
+                "feedback": "Incorrect. The Car instance does not override the start() method, so it returns 'Engine started'."
+            },
+            {
+                "code": "ElectricCar ready\nEngine started",
+                "correct": false,
+                "feedback": "Incorrect. The output order is reversed; Car prints 'Engine started' and ElectricCar prints 'ElectricCar ready'."
+            }
+        ]
+    }
+]

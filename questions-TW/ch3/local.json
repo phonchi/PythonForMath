@@ -1,0 +1,29 @@
+[
+    {
+        "question": "執行下列程式碼後，結果會是什麼？",
+        "code": "x = 3 * 2 \ny = 1\ndef subtract(z):\n    y = 10\n    return y - z\nprint(subtract(x))",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "4",
+                "correct": true,
+                "feedback": "正確！subtract 函式接收來自全域變數 x 的值作為參數 z，然後使用區域變數 y 來計算回傳值。結果為 10 - 6 = 4。"
+            },
+            {
+                "answer": "6",
+                "correct": false,
+                "feedback": "錯誤，請再看看 subtract 函式內部是如何計算的。"
+            },
+            {
+                "answer": "10",
+                "correct": false,
+                "feedback": "錯誤，subtract 函式內使用的是區域變數 y 並減去 z，不是直接回傳 y 的值。"
+            },
+            {
+                "answer": "程式碼會報錯，因為有兩個不同的 y 值。",
+                "correct": false,
+                "feedback": "錯誤，雖然有兩個 y，但它們分別存在於全域範圍與區域範圍，不會造成錯誤。"
+            }
+        ]
+    }
+]

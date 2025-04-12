@@ -1,0 +1,29 @@
+[
+    {
+        "question": "What is printed by the following code?",
+        "code": "class Car:\n    def __init__(self, brand, year):\n        self.brand = brand\n        self.year = year\n    def get_info(self):\n        return f\"{self.brand} - {self.year}\"\n\nmy_car = Car(\"Toyota\", 2020)\nprint(my_car.get_info())",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Toyota - 2020",
+                "correct": true,
+                "feedback": "Correct! The Car class is created with the __init__ method and a get_info() method, which returns the formatted string 'Toyota - 2020'."
+            },
+            {
+                "answer": "Car - 2020",
+                "correct": false,
+                "feedback": "Incorrect. The get_info() method returns the brand attribute ('Toyota'), not the class name 'Car'."
+            },
+            {
+                "answer": "Error: __init__ missing required arguments",
+                "correct": false,
+                "feedback": "Incorrect. The __init__ method is defined properly, and the Car instance is created with the required arguments."
+            },
+            {
+                "answer": "Toyota",
+                "correct": false,
+                "feedback": "Incorrect. The get_info() method returns both the brand and the year, not just the brand."
+            }
+        ]
+    }
+]

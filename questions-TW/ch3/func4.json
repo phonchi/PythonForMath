@@ -1,0 +1,24 @@
+[
+    {
+        "question": "如果我們希望從這個函數取得加總結果，下面的函數定義有什麼問題？",
+        "code": "def add_em(x, y, z):\n    print(x + y + z)",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "傳回值是 None",
+                "correct": true,
+                "feedback": "我們不小心使用了 print，而其實應該使用 return。這樣的話，函數預設會傳回 None。這個錯誤特別難發現，因為執行函數時，輸出的結果看起來一樣。"
+            },
+            {
+                "answer": "傳回值是 x+y+z 的結果",
+                "correct": false,
+                "feedback": "要小心！這是很常見的錯誤。我們這裡只是印出了 x+y+z 的結果，但並沒有傳回它。要傳回值，必須使用 return 關鍵字。"
+            },
+            {
+                "answer": "傳回字串 'x+y+z'",
+                "correct": false,
+                "feedback": "這裡的 x+y+z 是計算數值，代表 x、y 和 z 的總和，並不是字串。"
+            }
+        ]
+    }
+]

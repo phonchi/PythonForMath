@@ -1,0 +1,29 @@
+[
+    {
+        "question": "下列哪一個是正確的 Python 運算式，用來檢查存放在變數 x 中的數字是否介於 0 與 5 之間？",
+        "type": "many_choice",
+        "answer_cols": 4,
+        "answers": [
+            {
+                "answer": "x > 0 and < 5",
+                "correct": false,
+                "feedback": "每個比較運算子必須兩邊都有值。在這裡右側的表達式 < 5 缺少左邊的值。"
+            },
+            {
+                "answer": "0 < x < 5",
+                "correct": true,
+                "feedback": "這個運算式等同於寫成 x > 0 and x < 5，但這種寫法比較簡潔！"
+            },
+            {
+                "answer": "x > 0 or x < 5",
+                "correct": false,
+                "feedback": "這個表達式對所有大於 0 或小於 5 的數都會回傳 True，而所有數字都滿足這個條件，所以結果總是 True！"
+            },
+            {
+                "answer": "x > 0 and x < 5",
+                "correct": true,
+                "feedback": "正確！使用 and 關鍵字時，兩個比較必須同時成立，所以數字必須大於 0 且小於 5，此運算式才會回傳 True。"
+            }
+        ]
+    }
+]

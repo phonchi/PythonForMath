@@ -1,0 +1,29 @@
+[
+    {
+        "question": "下列敘述執行後，輸出視窗會印出什麼？",
+        "code": "day = \"Thursday\" \nday = 32.5 \nday = 19 \nprint(day)",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "什麼都不會印出，而且會產生執行時錯誤。",
+                "correct": false,
+                "feedback": "在 Python 中，變數儲存的資料型態可以合法地變更。"
+            },
+            {
+                "answer": "Thursday",
+                "correct": false,
+                "feedback": "這是變數 day 的第一個值，但接下來的敘述會重新給予該變數新值。"
+            },
+            {
+                "answer": "32.5",
+                "correct": false,
+                "feedback": "這是變數 day 的第二個值，但接下來的敘述會重新給予該變數新值。"
+            },
+            {
+                "answer": "19",
+                "correct": true,
+                "feedback": "當印出時，變數 day 將包含最後賦予它的值。"
+            }
+        ]
+    }
+]

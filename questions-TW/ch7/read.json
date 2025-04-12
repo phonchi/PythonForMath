@@ -1,0 +1,29 @@
+[
+    {
+        "question": "What is printed by the following statements?",
+        "code": "# Assume that the file 'data.txt' contains: 'Python is great.'\nwith open('data.txt', 'r') as f:\n    print(f.read())\n    print(f.read())",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "code": "Python is great.\nPython is great.",
+                "correct": false,
+                "feedback": "Incorrect. After the first call to read(), the file pointer reaches the end of the file, so the second read() returns an empty string."
+            },
+            {
+                "code": "Python is great.\n",
+                "correct": true,
+                "feedback": "Correct! The first read() prints the entire content, and the second read() prints an empty string because there is nothing left to read."
+            },
+            {
+                "code": "An error is raised during the second read().",
+                "correct": false,
+                "feedback": "Incorrect. No error is raised; the second read() simply returns an empty string."
+            },
+            {
+                "code": "Nothing is printed.",
+                "correct": false,
+                "feedback": "Incorrect. The first read() successfully prints the file content."
+            }
+        ]
+    }
+]

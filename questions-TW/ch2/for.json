@@ -1,0 +1,29 @@
+[
+    {
+        "question": "下列敘述會印出 HELLO 字串多少次？",
+        "code": "s = \"python rocks\"\nfor ch in s:\n    print(\"HELLO\")",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "10",
+                "correct": false,
+                "feedback": "逐項遍歷序列時，每個項目只處理一次。"
+            },
+            {
+                "answer": "11",
+                "correct": false,
+                "feedback": "空白字元也是序列的一部分。"
+            },
+            {
+                "answer": "12",
+                "correct": true,
+                "feedback": "正確，共有 12 個字元，包括空白。"
+            },
+            {
+                "answer": "語法錯誤，for 敘述需要使用 range() 函數。",
+                "correct": false,
+                "feedback": "for 敘述實際可以搭配序列並逐項遍歷序列。"
+            }
+        ]
+    }
+]

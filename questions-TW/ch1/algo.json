@@ -1,0 +1,29 @@
+[
+    {
+        "question": "下列哪一個選項符合演算法的定義？",
+        "type": "many_choice",
+        "answer_cols": 4,
+        "answers": [
+            {
+                "answer": "用來描述如何解決問題的一種特殊符號表示法。",
+                "correct": false,
+                "feedback": "程式設計師會使用虛擬碼等符號表示法來說明演算法，但這並不是演算法的定義。"
+            },
+            {
+                "answer": "必須使用程式語言來描述。",
+                "correct": false,
+                "feedback": "演算法可以用多種方式描述，包括虛擬碼和程式語言。"
+            },
+            {
+                "answer": "針對可能發生的任何問題實例而設計的一系列逐步指令。",
+                "correct": true,
+                "feedback": "正確。"
+            },
+            {
+                "answer": "它包含明確、無歧義的步驟，並且必須在有限時間內產生結果。",
+                "correct": true,
+                "feedback": "這是演算法的正式定義。"
+            }
+        ]
+    }
+]

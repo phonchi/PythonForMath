@@ -1,0 +1,29 @@
+[
+    {
+        "question": "以下語句會印出什麼？",
+        "code": "alist = [3, 67, \"cat\", [56, 57, \"dog\"], 2.5, 3.14, False]\nprint(alist[4:])",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "[2.5, 3.14, False]",
+                "correct": true,
+                "feedback": "是的，這個切片從索引 4 開始，直到包含最後一個項目。"
+            },
+            {
+                "answer": "[2.5, 3.14]",
+                "correct": false,
+                "feedback": "因為在切片中省略了上限，我們會一直切到並包括最後一個項目。"
+            },
+            {
+                "answer": "[[56, 57, \"dog\"], 2.5, 3.14, False]",
+                "correct": false,
+                "feedback": "索引從 0 開始。"
+            },
+            {
+                "answer": "2.5",
+                "correct": false,
+                "feedback": "切片運算符將創建一個新的串列，其中包含數個元素。"
+            }
+        ]
+    }
+]

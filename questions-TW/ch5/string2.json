@@ -1,0 +1,29 @@
+[
+    {
+        "question": "下列程式碼會印出什麼？",
+        "code": "name = \"Alice\"\nage = 30\nbalance = 1234.5678\nprint(f\"{name} 是 {age} 歲，餘額為 {balance:.2f}\")",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Alice 是 30 歲，餘額為 1234.57",
+                "correct": true,
+                "feedback": "正確！f-string 會將變數值代入並將餘額格式化為兩位小數。"
+            },
+            {
+                "answer": "Alice 是 30 歲，餘額為 1234.5678",
+                "correct": false,
+                "feedback": "錯誤。餘額已格式化為兩位小數，因此會四捨五入為 1234.57。"
+            },
+            {
+                "answer": "Alice 是 {age} 歲，餘額為 {balance:.2f}",
+                "correct": false,
+                "feedback": "錯誤。大括號內的表達式會被計算，而不是字面印出。"
+            },
+            {
+                "answer": "name 是 30 歲，餘額為 1234.57",
+                "correct": false,
+                "feedback": "錯誤。變數 'name' 應該被其值 'Alice' 取代。"
+            }
+        ]
+    }
+]

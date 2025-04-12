@@ -1,0 +1,29 @@
+[
+    {
+        "question": "下列運算式的值是多少？",
+        "code": "16 - 2 * 5 // 3 + 1",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "14",
+                "correct": true,
+                "feedback": "使用括號後，該運算式依序計算 (2*5) 得到 10，再計算 (10 // 3) 得到 3，接著計算 (16-3) 得到 13，最後 (13+1) 得到 14。"
+            },
+            {
+                "answer": "24",
+                "correct": false,
+                "feedback": "請記得，* 的優先順序高於 -。"
+            },
+            {
+                "answer": "3",
+                "correct": false,
+                "feedback": "請記得，// 的優先順序高於 -。"
+            },
+            {
+                "answer": "13.667",
+                "correct": false,
+                "feedback": "請記得，// 是整數除法。"
+            }
+        ]
+    }
+]

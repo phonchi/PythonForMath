@@ -1,0 +1,29 @@
+[
+    {
+        "question": "What is printed by the following statements?",
+        "code": "try:\n    x = int(\"abc\")\n    print(\"Conversion succeeded\")\nexcept ValueError:\n    print(\"Conversion failed\")\nelse:\n    print(\"No exception occurred\")\nfinally:\n    print(\"Execution finished\")",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "code": "Conversion succeeded\nNo exception occurred\nExecution finished",
+                "correct": false,
+                "feedback": "Incorrect. The conversion of \"abc\" to an integer fails, so the try block does not complete normally."
+            },
+            {
+                "code": "Conversion failed\nExecution finished",
+                "correct": true,
+                "feedback": "Correct! int(\"abc\") raises a ValueError, so the except block executes. The else block is skipped, and the finally block always runs."
+            },
+            {
+                "code": "Conversion failed\nNo exception occurred\nExecution finished",
+                "correct": false,
+                "feedback": "Incorrect. The else block does not execute when an exception is raised."
+            },
+            {
+                "code": "Conversion succeeded\nExecution finished",
+                "correct": false,
+                "feedback": "Incorrect. The conversion fails because \"abc\" is not a valid integer, so the try block doesn't succeed."
+            }
+        ]
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "front": "Object Oriented Programming (OOP)",
+        "back": "A programming paradigm that organizes code using objects and classes to model real-world entities and relationships."
+    },
+    {
+        "front": "class",
+        "back": "A blueprint for creating objects that defines attributes and methods."
+    },
+    {
+        "front": "object",
+        "back": "An instance of a class containing data (attributes) and behavior (methods)."
+    },
+    {
+        "front": "method",
+        "back": "A function defined within a class that operates on instances of that class."
+    },
+    {
+        "front": "attribute",
+        "back": "A variable that is bound to an object or class, holding data relevant to that object."
+    },
+    {
+        "front": "constructor",
+        "back": "A special method, typically __init__, that initializes a new object's state when it is created."
+    },
+    {
+        "front": "destructor",
+        "back": "A special method, typically __del__, that is called when an object is about to be destroyed, used for cleanup."
+    },
+    {
+        "front": "dunder method",
+        "back": "A special method with double underscores before and after its name (e.g., __init__, __str__) that enables built-in behaviors."
+    },
+    {
+        "front": "inheritance",
+        "back": "A mechanism where a new class (child) derives attributes and methods from an existing class (parent)."
+    },
+    {
+        "front": "parent(base) class",
+        "back": "A class whose properties and methods are inherited by another class."
+    },
+    {
+        "front": "child(derived) class",
+        "back": "A class that inherits from a parent class and can extend or override its behavior."
+    },
+    {
+        "front": "override",
+        "back": "To provide a new implementation for an inherited method in a child class."
+    },
+    {
+        "front": "composition",
+        "back": "A design principle where a class is composed of one or more objects of other classes, representing a 'has-a' relationship."
+    },
+    {
+        "front": "encapsulation",
+        "back": "The bundling of data and methods within a class, restricting access to internal details and protecting object integrity."
+    },
+    {
+        "front": "private data",
+        "back": "Attributes intended to be hidden from outside access, usually denoted with a leading underscore (e.g., _data)."
+    },
+    {
+        "front": "public data",
+        "back": "Attributes that are accessible from outside the class without restrictions."
+    },
+    {
+        "front": "public method",
+        "back": "Methods that are accessible from outside the class without restrictions."
+    },
+    {
+        "front": "private method",
+        "back": "A method intended for internal use within a class, typically indicated by a leading underscore."
+    },
+    {
+        "front": "utility method",
+        "back": "A method that performs a supportive or common function, often independent of instance-specific data."
+    },
+    {
+        "front": "class method",
+        "back": "A method bound to the class rather than an instance, marked with the @classmethod decorator, and takes the class as its first parameter."
+    },
+    {
+        "front": "class attribute",
+        "back": "An attribute that is shared among all instances of a class."
+    },
+    {
+        "front": "polymorphism",
+        "back": "The ability for different classes to be treated through a common interface, often by overriding methods."
+    },
+    {
+        "front": "function overloading",
+        "back": "Defining multiple functions with the same name but different parameters."
+    },
+    {
+        "front": "operator overloading",
+        "back": "Defining special methods to customize the behavior of built-in operators for user-defined classes."
+    },
+    {
+        "front": "method overriding",
+        "back": "Providing a new implementation for a method inherited from a parent class, allowing the child class to customize behavior."
+    }
+]

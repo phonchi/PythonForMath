@@ -1,0 +1,34 @@
+[
+    {
+        "question": "下列哪些選項是布林運算式？請選擇所有符合的選項。",
+        "type": "many_choice",
+        "answer_cols": 5,
+        "answers": [
+            {
+                "answer": "True",
+                "correct": true,
+                "feedback": "布林運算式是結果為布林值的運算式。True 和 False 本身也是運算式！"
+            },
+            {
+                "answer": "3 == 4",
+                "correct": true,
+                "feedback": "使用 == 比較兩個數字的結果會是 True 或 False。"
+            },
+            {
+                "answer": "3 + 4",
+                "correct": false,
+                "feedback": "3 + 4 的運算結果是 7，這是一個數字，而不是布林值。因此它雖然是一個運算式，但不是布林運算式！"
+            },
+            {
+                "answer": "3 + 4 == 7",
+                "correct": true,
+                "feedback": "3 + 4 的運算結果是 7，而 7 == 7 的結果則是 True，這是一個布林值。"
+            },
+            {
+                "answer": "\"False\"",
+                "correct": false,
+                "feedback": "由於雙引號的存在，False 被解釋為字串，而不是布林值。如果沒有引號，False 本身是一個布林值，因此會是一個布林運算式。"
+            }
+        ]
+    }
+]

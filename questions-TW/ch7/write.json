@@ -1,0 +1,29 @@
+[
+    {
+        "question": "What is the final content of the file 'data.txt' after executing the following code?",
+        "code": "with open('data.txt', 'w') as f:\n    f.write('First line\\n')\n\nwith open('data.txt', 'w') as f:\n    f.write('Second line')",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "code": "First line\nSecond line",
+                "correct": false,
+                "feedback": "Incorrect. The second 'w' mode open overwrites the file, so the content from the first write is lost."
+            },
+            {
+                "answer": "First line",
+                "correct": false,
+                "feedback": "Incorrect. The file is overwritten by the second write operation."
+            },
+            {
+                "answer": "Second line",
+                "correct": true,
+                "feedback": "Correct! Opening the file in 'w' mode replaces its content. The final content is just 'Second line'."
+            },
+            {
+                "code": "First line\n\nSecond line",
+                "correct": false,
+                "feedback": "Incorrect. No additional newline is inserted, and the second open in 'w' mode completely overwrites the file."
+            }
+        ]
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "question": "What is printed by the following statements?",
+        "code": "d1 = {\"a\": 1, \"b\": 2}\nd2 = d1\nd2[\"a\"] = 99\nprint(d1)",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "{\"a\": 99, \"b\": 2}",
+                "correct": true,
+                "feedback": "Correct! Since d2 is just a reference to d1, modifying d2 also changes d1."
+            },
+            {
+                "answer": "{\"a\": 1, \"b\": 2}",
+                "correct": false,
+                "feedback": "Incorrect. d2 is not a separate copy; it refers to the same dictionary as d1."
+            },
+            {
+                "answer": "{\"a\": 99, \"b\": 2, \"a\": 1}",
+                "correct": false,
+                "feedback": "Incorrect. Dictionaries cannot have duplicate keys; the key 'a' is overwritten."
+            },
+            {
+                "answer": "An error occurs due to reassignment.",
+                "correct": false,
+                "feedback": "Incorrect. The code runs without error because assignment simply creates another reference to the same dictionary."
+            }
+        ]
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "question": "以下語句會輸出什麼？",
+        "code": "print(\"Hello\\nWorld!\\tWelcome to \\\"Python\\\" programming.\\\\\")",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "code": "Hello\nWorld!\tWelcome to \"Python\" programming.\\",
+                "correct": true,
+                "feedback": "正確！跳脫字元 \\n 會產生換行，\\t 會產生 Tab 鍵，\\\" 會顯示雙引號，而 \\\\ 會顯示反斜線。"
+            },
+            {
+                "code": "Hello\\nWorld!\tWelcome to \"Python\" programming.\\",
+                "correct": false,
+                "feedback": "錯誤。\\n 跳脫字元會處理為換行，而不是字面顯示。"
+            },
+            {
+                "code": "Hello\nWorld!\\tWelcome to \"Python\" programming.\\",
+                "correct": false,
+                "feedback": "錯誤。\\t 跳脫字元應該會產生 Tab 鍵，而不是顯示字面上的 \\t。"
+            },
+            {
+                "code": "Hello\\nWorld!\\tWelcome to \\\"Python\\\" programming.\\\\",
+                "correct": false,
+                "feedback": "錯誤。這個答案顯示的是帶有跳脫字元的字面字串，而不是處理後的輸出。"
+            }
+        ]
+    }
+]

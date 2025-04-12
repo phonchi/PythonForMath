@@ -1,0 +1,29 @@
+[
+    {
+        "question": "以下函數定義有什麼問題：",
+        "code": "def add_em(x, y, z):\n    return x + y + z\n    print(\"the answer is\", x + y + z)",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "函數定義中不應該使用 print 敘述。",
+                "correct": false,
+                "feedback": "你可以在函數中加入 print 敘述，這是允許的。"
+            },
+            {
+                "answer": "在 return 敘述之後不應該有其他敘述。一旦執行到 return，函數會立即停止執行。",
+                "correct": true,
+                "feedback": "這是一個非常常見的錯誤，撰寫程式時務必要特別留意！"
+            },
+            {
+                "answer": "你必須在 return 前先計算 x + y + z 的值。",
+                "correct": false,
+                "feedback": "Python 會自動計算 x + y + z 並直接在 return 敘述中傳回這個值，不需要額外計算。"
+            },
+            {
+                "answer": "函數不能傳回數值。",
+                "correct": false,
+                "feedback": "函數可以傳回任何合法的資料型別，包括（但不限於）數值、字串、布林值等等。"
+            }
+        ]
+    }
+]

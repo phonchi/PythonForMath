@@ -1,0 +1,29 @@
+[
+    {
+        "question": "下列敘述執行後，輸出視窗中會顯示什麼？",
+        "code": "print(\"Hello!\")",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "什麼都不會印出，而且會產生執行時錯誤。",
+                "correct": false,
+                "feedback": "語法是正確的！"
+            },
+            {
+                "answer": "\"Hello!\"",
+                "correct": false,
+                "feedback": "程式中的字面值包含引號，但印出來的結果不包含引號。"
+            },
+            {
+                "answer": "Hello!",
+                "correct": true,
+                "feedback": "正確。"
+            },
+            {
+                "answer": "哈囉!",
+                "correct": false,
+                "feedback": "它不會進行翻譯。"
+            }
+        ]
+    }
+]

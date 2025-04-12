@@ -1,0 +1,30 @@
+[
+    {
+        "front": "key-value",
+        "back": "A pair consisting of a key and its associated value, as used in dictionaries."
+    },
+    {
+        "front": "key",
+        "back": "An immutable identifier used to access a corresponding value in a dictionary."
+    },
+    {
+        "front": "value",
+        "back": "The data associated with a key in a dictionary."
+    },
+    {
+        "front": "dictionary",
+        "back": "A collection of key-value pairs where each key is unique."
+    },
+    {
+        "front": "set",
+        "back": "An unordered collection of unique elements."
+    },
+    {
+        "front": "dictionary comprehension",
+        "back": "A concise way to create dictionaries from iterables using a single expression."
+    },
+    {
+        "front": "set comprehension",
+        "back": "A concise way to create sets from iterables using a single expression."
+    }
+]

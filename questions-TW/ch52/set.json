@@ -1,0 +1,29 @@
+[
+    {
+        "question": "Which of the following sets is equal to the set 's' after executing the following statements? (Remember that sets are unordered.)",
+        "code": "s = {1, 2, 3, 4}\ns.add(5)\ns.update([3, 6, 7])\ns.remove(4)",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "{1, 2, 3, 5, 6, 7}",
+                "correct": true,
+                "feedback": "Correct! After adding 5 and updating with 6 and 7 (while 3 is already present) and then removing 4, the set contains 1, 2, 3, 5, 6, and 7. The printed order may vary since sets are unordered."
+            },
+            {
+                "answer": "{1, 2, 3, 4, 5, 6, 7}",
+                "correct": false,
+                "feedback": "Incorrect. Although the update added 6 and 7, the remove() call deletes 4 from the set."
+            },
+            {
+                "answer": "{1, 2, 3, 4, 5}",
+                "correct": false,
+                "feedback": "Incorrect. This answer ignores the elements 6 and 7 that are added by the update() method."
+            },
+            {
+                "answer": "A KeyError is raised.",
+                "correct": false,
+                "feedback": "Incorrect. The operations are valid for sets, and no error is raised."
+            }
+        ]
+    }
+]

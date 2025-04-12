@@ -1,0 +1,28 @@
+[
+    {
+        "question": "Which of the following paths are relative file paths?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "Stacy/Applications/README.txt",
+                "correct": true,
+                "feedback": "Yes, this is a relative file path. You can tell by the lack of \"/\" at the beginning of the path."
+            },
+            {
+                "answer":  "/Users/Raquel/Documents/graduation_plans.doc",
+                "correct": false,
+                "feedback": "This is an absolute file path. All absolute file paths start with \"/\"."
+            },
+            {
+                "answer": "/private/tmp/swtag.txt",
+                "correct": false,
+                "feedback": "This is an absolute file path."
+            },
+            {
+                "answer": "ScienceData/ProjectFive/experiment_data.csv",
+                "correct": true,
+                "feedback": "Yes, this is a relative file path. You can tell by the lack of \"/\" at the beginning of the path."
+            }
+        ]
+    }
+]

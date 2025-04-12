@@ -1,0 +1,29 @@
+[
+    {
+        "question": "以下程式碼會輸出什麼結果？",
+        "code": "s = \"python rocks\"\nprint(s[2] + s[-4])",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "tr",
+                "correct": false,
+                "feedback": "很接近了，t 在位置 2，從左到右從 0 開始計算；但 r 在 -5，從右到左從 -1 開始計算。"
+            },
+            {
+                "answer": "to",
+                "correct": true,
+                "feedback": "對於 -4，從右到左計算，從 -1 開始。"
+            },
+            {
+                "answer": "ps",
+                "correct": false,
+                "feedback": "p 在位置 0，而不是 2。"
+            },
+            {
+                "answer": "錯誤，不能將 [ ] 運算子與 + 運算子一起使用。",
+                "correct": false,
+                "feedback": "[ ] 運算子返回一個字串，可以與另一個字串進行串聯。"
+            }
+        ]
+    }
+]

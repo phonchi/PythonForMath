@@ -1,0 +1,24 @@
+[
+    {
+        "question": "當 x = 3, y = 5, 且 z = 2 時，下列程式碼會印出什麼？",
+        "code": "if x < y and x < z: \n    print(\"a\") \nelif y < x and y < z:\n    print(\"b\") \nelse:\n    print(\"c\")",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "a",
+                "correct": false,
+                "feedback": "雖然 x 的值小於 y (3 小於 5)，但 x 的值並不小於 z (3 不小於 2)。"
+            },
+            {
+                "answer": "b",
+                "correct": false,
+                "feedback": "y 的值並不小於 x (5 不小於 3)。"
+            },
+            {
+                "answer": "c",
+                "correct": true,
+                "feedback": "由於前兩個布林運算式皆為 False，所以執行 else 區塊。"
+            }
+        ]
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "question": "以下語句會輸出什麼？",
+        "code": "alist = [1,3,5]\nblist = [2,4,6]\nprint(alist + blist)",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "6",
+                "correct": false,
+                "feedback": "連接不會加總串列的長度。"
+            },
+            {
+                "answer": "[1,2,3,4,5,6]",
+                "correct": false,
+                "feedback": "串接不會重新排序項目。"
+            },
+            {
+                "answer": "[1,3,5,2,4,6]",
+                "correct": true,
+                "feedback": "是的，會產生一個新串列，包含第一個串列的所有項目，然後是第二個串列的所有項目。"
+            },
+            {
+                "answer": "[3,7,11]",
+                "correct": false,
+                "feedback": "串接不會將各個項目相加。"
+            }
+        ]
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "front": "with",
+        "back": "A context management statement that simplifies resource management by automatically handling setup and teardown operations, such as opening and closing files."
+    },
+    {
+        "front": "relative file path",
+        "back": "A file path specified relative to the current working directory, not including the full path from the root."
+    },
+    {
+        "front": "absolute file path",
+        "back": "A file path that includes the complete directory hierarchy from the root to the target file."
+    },
+    {
+        "front": "file-position pointer",
+        "back": "A marker that indicates the current position within a file, used to track where the next read or write will occur."
+    },
+    {
+        "front": "json",
+        "back": "JavaScript Object Notation, a lightweight text-based data format for representing structured data, commonly used for data interchange."
+    },
+    {
+        "front": "exception",
+        "back": "An error event that disrupts normal program flow, which can be caught and handled to prevent the program from crashing."
+    },
+    {
+        "front": "try-catch",
+        "back": "A structure used to handle exceptions. In Python, it is implemented as 'try' and 'except' blocks to catch and manage errors."
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "question": "What is printed by the following code?",
+        "code": "class Person:\n    def __init__(self, name, age):\n        self.name = name\n        self.age = age\n    def __repr__(self):\n        return f\"Person('{self.name}', {self.age})\"\n    def __str__(self):\n        return f\"{self.name} ({self.age} years old)\"\n\np = Person(\"Bob\", 25)\nprint(repr(p))\nprint(p)",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "code": "Person('Bob', 25)\nBob (25 years old)",
+                "correct": true,
+                "feedback": "Correct! The __repr__ method returns the official string representation 'Person('Bob', 25)', and the __str__ method returns the readable string 'Bob (25 years old)'."
+            },
+            {
+                "code": "Bob (25 years old)\nPerson('Bob', 25)",
+                "correct": false,
+                "feedback": "Incorrect! The first printed line comes from repr(p), which returns 'Person('Bob', 25)', not 'Bob (25 years old)'."
+            },
+            {
+                "code": "Person('Bob', 25)\nPerson('Bob', 25)",
+                "correct": false,
+                "feedback": "Incorrect! The __str__ method should override the string conversion, so the second printed line is 'Bob (25 years old)'."
+            },
+            {
+                "code": "Bob (25 years old)\nBob (25 years old)",
+                "correct": false,
+                "feedback": "Incorrect! The __repr__ method returns a different, more formal representation than __str__."
+            }
+        ]
+    }
+]

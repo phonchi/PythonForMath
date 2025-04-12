@@ -1,0 +1,29 @@
+[
+    {
+        "question": "下列程式碼包含一個無限迴圈。哪一個是迴圈不會終止的最佳解釋？",
+        "code": "n = 10 \nanswer = 1 \nwhile ( n > 0 ):\n    answer = answer + n\n    n = n + 1\nprint(answer)",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "n 從 10 開始，每次迴圈都遞增 1，因此它永遠是正數。",
+                "correct": true,
+                "feedback": "只要 n 為正數，迴圈就會一直運行。在這個例子中，可以看到 n 永遠不會變成非正數。"
+            },
+            {
+                "answer": "answer 從 1 開始，每次迴圈都加上 n，因此它永遠是正數。",
+                "correct": false,
+                "feedback": "雖然 answer 永遠是正數，但迴圈條件並未考慮 answer 的值。"
+            },
+            {
+                "answer": "在 while 迴圈中，你不能將 n 與 0 進行比較。你必須將它與另一個變數比較。",
+                "correct": false,
+                "feedback": "雖然這是間接導致無限迴圈的原因，但比較 n 與 0 是合法的。"
+            },
+            {
+                "answer": "在 while 迴圈的主體中，我們必須將 n 設定為 False，而這段程式碼沒有這麼做。",
+                "correct": false,
+                "feedback": "迴圈條件必須變為 False 以使迴圈終止，但在這個例子中，n 本身並不是條件。"
+            }
+        ]
+    }
+]

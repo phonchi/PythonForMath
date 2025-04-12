@@ -1,0 +1,29 @@
+[
+    {
+        "question": "以下語句會印出什麼？",
+        "code": "my_list = [1, 2, 3]\nmy_list.append([4, 5])\nmy_list.extend([6, 7])\nprint(my_list)",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "[1, 2, 3, [4, 5], 6, 7]",
+                "correct": true,
+                "feedback": "正確！`append`方法會將整個`[4, 5]`串列作為單一元素添加，而`extend`會遍歷它的參數，逐個添加`6`和`7`。"
+            },
+            {
+                "answer": "[1, 2, 3, 4, 5, 6, 7]",
+                "correct": false,
+                "feedback": "錯誤。雖然`extend`會逐個添加每個元素，但`append`會將其參數作為單一項目添加，結果會形成巢狀串列。"
+            },
+            {
+                "answer": "[1, 2, 3, [4, 5, 6, 7]]",
+                "correct": false,
+                "feedback": "錯誤。只有`append`方法會將串列作為單一元素添加，`extend`則不會。"
+            },
+            {
+                "answer": "[1, 2, 3, 4, 5, [6, 7]]",
+                "correct": false,
+                "feedback": "錯誤。`extend`方法不會將其串列參數作為單一巢狀元素添加。"
+            }
+        ]
+    }
+]

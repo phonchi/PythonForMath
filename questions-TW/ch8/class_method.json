@@ -1,0 +1,29 @@
+[
+    {
+        "question": "What is printed by the following code?",
+        "code": "class MyClass:\n    count = 0\n\n    def __init__(self):\n        MyClass.count += 1\n\n    @classmethod\n    def get_count(cls):\n        return cls.count\n\nobj1 = MyClass()\nobj2 = MyClass()\nprint(obj1.get_count())\nprint(MyClass.get_count())",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "code": "1\n1",
+                "correct": false,
+                "feedback": "Incorrect! Two instances are created, so the class attribute 'count' should be incremented twice."
+            },
+            {
+                "code": "2\n2",
+                "correct": true,
+                "feedback": "Correct! Each instance increments 'count' by 1, so with two instances the value is 2, returned by both obj1.get_count() and MyClass.get_count()."
+            },
+            {
+                "code": "0\n2",
+                "correct": false,
+                "feedback": "Incorrect! The __init__ method increments 'count' upon creating each instance."
+            },
+            {
+                "code": "2\n0",
+                "correct": false,
+                "feedback": "Incorrect! The class method 'get_count()' correctly returns the updated 'count' value."
+            }
+        ]
+    }
+]

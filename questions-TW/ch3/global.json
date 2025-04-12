@@ -1,0 +1,29 @@
+[
+    {
+        "question": "執行以下程式碼會得到什麼結果？",
+        "code": "x = 9\ndef adding():\n    x+=1\n    print(x)\nadding()",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "1",
+                "correct": false,
+                "feedback": "錯誤，請注意函式中的區域變數範圍 (local scope)。"
+            },
+            {
+                "answer": "9",
+                "correct": false,
+                "feedback": "錯誤，請注意函式中的區域變數範圍 (local scope)。"
+            },
+            {
+                "answer": "10",
+                "correct": false,
+                "feedback": "錯誤，請注意函式中的區域變數範圍 (local scope)。"
+            },
+            {
+                "answer": "錯誤，區域變數 'x' 在賦值前被引用。",
+                "correct": true,
+                "feedback": "這段程式碼會產生錯誤，因為區域變數 'x' 在賦值之前就被引用了。"
+            }
+        ]
+    }
+]

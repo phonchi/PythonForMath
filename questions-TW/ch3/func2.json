@@ -1,0 +1,24 @@
+[
+    {
+        "question": "執行以下程式碼會輸出幾行？",
+        "code": "def hello():\n    print(\"Hello\")\n    print(\"NSYSU\")",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "0 行",
+                "correct": true,
+                "feedback": "這段程式碼只是定義了函數，並沒有呼叫該函數，所以什麼都不會輸出。"
+            },
+            {
+                "answer": "2 行",
+                "correct": false,
+                "feedback": "當函數被呼叫時，會輸出兩行，但這段程式碼只是定義了函數，尚未呼叫它。"
+            },
+            {
+                "answer": "3 行",
+                "correct": false,
+                "feedback": "雖然有三行程式碼，但目前只有定義函數，未執行呼叫，因此不會輸出任何內容。"
+            }
+        ]
+    }
+]

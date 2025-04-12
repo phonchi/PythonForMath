@@ -1,0 +1,28 @@
+[
+    {
+        "question": "在 Python 中，什麼是函數？",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "一個具名稱的程式區塊。",
+                "correct": true,
+                "feedback": "正確！函數是一個具名稱的程式區塊。"
+            },
+            {
+                "answer": "任何一連串的指令。",
+                "correct": false,
+                "feedback": "雖然函數包含一連串的指令，但不是所有的一連串的指令都被視為函數。"
+            },
+            {
+                "answer": "一個計算數值的數學表達式。",
+                "correct": false,
+                "feedback": "雖然有些函數會計算出數值，但 Python 中的函數概念與數學中的函數略有不同，並非所有函數都用來計算數值。例如，print() 函數就沒有計算數值。"
+            },
+            {
+                "answer": "像 x = 5 + 4 這樣的敘述。",
+                "correct": false,
+                "feedback": "這樣的敘述被稱為指派（賦值）敘述，而不是函數。"
+            }
+        ]
+    }
+]

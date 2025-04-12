@@ -1,0 +1,29 @@
+[
+    {
+        "question": "What is printed by the following code?",
+        "code": "class Shape:\n    def area(self):\n        return \"No area\"\n\nclass Circle(Shape):\n    def __init__(self, radius):\n        self.radius = radius\n    def area(self):\n        return 3.14 * self.radius * self.radius\n\nclass Square(Shape):\n    def __init__(self, side):\n        self.side = side\n    def area(self):\n        return self.side * self.side\n\nshapes = [Circle(2), Square(3)]\nfor shape in shapes:\n    print(shape.area())",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "code": "12.56\n9",
+                "correct": true,
+                "feedback": "Correct! For a Circle with radius 2, the area is 3.14*2*2 = 12.56, and for a Square with side 3, the area is 3*3 = 9."
+            },
+            {
+                "code": "No area\nNo area",
+                "correct": false,
+                "feedback": "Incorrect! The area() methods in Circle and Square override the one in the base class, so their computed values are used."
+            },
+            {
+                "code": "9\n12.56",
+                "correct": false,
+                "feedback": "Incorrect! The shapes are printed in the order they appear in the list: the Circle first then the Square."
+            },
+            {
+                "code": "12.56 9",
+                "correct": false,
+                "feedback": "Incorrect! The outputs are printed on separate lines, not on the same line."
+            }
+        ]
+    }
+]

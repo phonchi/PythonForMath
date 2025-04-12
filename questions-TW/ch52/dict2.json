@@ -1,0 +1,29 @@
+[
+    {
+        "question": "What is printed by the following statements?",
+        "code": "d = {\"fruit\": \"apple\", \"quantity\": 10, \"price\": 2.5}\nprint(list(d.keys()))\nprint(list(d.values()))\nprint(list(d.items()))",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "[\"fruit\", \"quantity\", \"price\"]\n[\"apple\", 10, 2.5]\n[(\"fruit\", \"apple\"), (\"quantity\", 10), (\"price\", 2.5)]",
+                "correct": true,
+                "feedback": "Correct! Converting the keys, values, and items to lists returns the expected results in the order of insertion."
+            },
+            {
+                "answer": "[\"fruit\", \"quantity\", \"price\"]\n[(\"fruit\", \"apple\"), (\"quantity\", 10), (\"price\", 2.5)]\n[\"apple\", 10, 2.5]",
+                "correct": false,
+                "feedback": "Incorrect. The output order should be keys first, then values, and finally key-value pairs."
+            },
+            {
+                "answer": "[\"fruit\", \"quantity\", \"price\"]\n[\"apple\", 10, 2.5]\n[\"fruit\", \"apple\", \"quantity\", 10, \"price\", 2.5]",
+                "correct": false,
+                "feedback": "Incorrect. The items() method returns a list of tuples, not a flattened list of values."
+            },
+            {
+                "answer": "It prints the dictionary’s keys, values, and items without converting them to lists.",
+                "correct": false,
+                "feedback": "Incorrect. Since list() is used, the view objects are converted into lists, which formats the output as shown in the correct answer."
+            }
+        ]
+    }
+]

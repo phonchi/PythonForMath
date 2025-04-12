@@ -1,0 +1,29 @@
+[
+    {
+        "question": "當下列敘述執行時會印出什麼數值？",
+        "code": "print(18.0 // 4)",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "4.5",
+                "correct": false,
+                "feedback": "// 運算子會無條件捨去小數部分。"
+            },
+            {
+                "answer": "5",
+                "correct": false,
+                "feedback": "不論使用 / 或 // 都不會進行四捨五入。"
+            },
+            {
+                "answer": "4",
+                "correct": false,
+                "feedback": "儘管運算子會無條件捨去，但結果仍會以浮點數表示。"
+            },
+            {
+                "answer": "4.0",
+                "correct": true,
+                "feedback": "在處理不同數值型態時，會隱式轉換成較寬或較精確的型態再進行運算。"
+            }
+        ]
+    }
+]

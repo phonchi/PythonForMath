@@ -1,0 +1,29 @@
+[
+    {
+        "question": "下列敘述執行後，輸出視窗會印出什麼數值？",
+        "code": "print(int(53.785))",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "什麼都不會印出，而且會產生執行時錯誤。",
+                "correct": false,
+                "feedback": "這是有效的 Python 程式碼。它呼叫 int 函式將 53.785 轉換為整數，然後印出返回的值。"
+            },
+            {
+                "answer": "53",
+                "correct": true,
+                "feedback": "int 函式會捨棄小數部分，僅保留整數部分，因此印出 53。"
+            },
+            {
+                "answer": "54",
+                "correct": false,
+                "feedback": "轉換為整數時，int 函式不會進行四捨五入。"
+            },
+            {
+                "answer": "53.785",
+                "correct": false,
+                "feedback": "int 函式會移除 53.785 的小數部分，傳回整數 53。"
+            }
+        ]
+    }
+]

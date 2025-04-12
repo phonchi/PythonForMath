@@ -1,0 +1,29 @@
+[
+    {
+        "question": "What is the final state of the dictionary 'd' after executing the following statements?",
+        "code": "d = {\"a\": \"alpha\"}\nd.setdefault(\"a\", \"ALPHA\")\nd.setdefault(\"b\", \"beta\")\nd.setdefault(\"c\", \"gamma\")\nprint(d)",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "{\"a\": \"alpha\", \"b\": \"beta\", \"c\": \"gamma\"}",
+                "correct": true,
+                "feedback": "Correct! The key 'a' already exists, so its value remains \"alpha\". The keys 'b' and 'c' are added with the values \"beta\" and \"gamma\" respectively."
+            },
+            {
+                "answer": "{\"a\": \"ALPHA\", \"b\": \"beta\", \"c\": \"gamma\"}",
+                "correct": false,
+                "feedback": "Incorrect. The setdefault() method does not change the value of an existing key; therefore, 'a' remains \"alpha\"."
+            },
+            {
+                "answer": "{\"a\": \"alpha\", \"b\": \"beta\"}",
+                "correct": false,
+                "feedback": "Incorrect. While key 'a' is unchanged, key 'c' is also added to the dictionary with its default value."
+            },
+            {
+                "answer": "{\"a\": \"ALPHA\", \"b\": \"beta\"}",
+                "correct": false,
+                "feedback": "Incorrect. The final dictionary should include the key 'c' with its default value, and the value for 'a' remains unchanged."
+            }
+        ]
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "question": "以下語句會印出什麼？",
+        "code": "alist = [3, 67, \"cat\", [56, 57, \"dog\"], [ ], 3.14, False]\nprint(alist[5])",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "[ ]",
+                "correct": false,
+                "feedback": "空串列在索引 4。"
+            },
+            {
+                "answer": "3.14",
+                "correct": true,
+                "feedback": "是的，3.14 位於索引 5，因為我們從 0 開始計數，而子串列計算為一個項目。"
+            },
+            {
+                "answer": "False",
+                "correct": false,
+                "feedback": "False 在索引 6。"
+            },
+            {
+                "answer": "dog",
+                "correct": false,
+                "feedback": "索引 3 的元素是另一個內部串列。這個串列在外部串列中只算作一個元素。"
+            }
+        ]
+    }
+]

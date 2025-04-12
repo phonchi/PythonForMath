@@ -1,0 +1,29 @@
+[
+    {
+        "question": "What is printed by the following code?",
+        "code": "class Person:\n    def __init__(self, name):\n        self.__name = name  # private attribute\n\n    def get_name(self):\n        return self.__name\n\np = Person(\"Alice\")\nprint(p.get_name())\nprint(p.__name)",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "code": "Alice\nAlice",
+                "correct": false,
+                "feedback": "Incorrect! Although the get_name() method correctly returns 'Alice', directly accessing the private attribute __name is not allowed and will raise an AttributeError."
+            },
+            {
+                "code": "Alice\nAttributeError",
+                "correct": true,
+                "feedback": "Correct! The get_name() method provides controlled access to the private attribute, printing 'Alice', while accessing p.__name directly results in an AttributeError due to encapsulation."
+            },
+            {
+                "code": "AttributeError\nAttributeError",
+                "correct": false,
+                "feedback": "Incorrect! The get_name() method successfully returns 'Alice', so the first print statement does not raise an error."
+            },
+            {
+                "code": "Alice\nNone",
+                "correct": false,
+                "feedback": "Incorrect! Direct access of p.__name is not allowed and does not return None; it raises an AttributeError."
+            }
+        ]
+    }
+]

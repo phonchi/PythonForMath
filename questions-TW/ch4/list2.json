@@ -1,0 +1,28 @@
+[
+    {
+        "question": "以下哪一項正確使用了索引？假設 a 是一個串列或字符串。",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "w = [a]",
+                "correct": false,
+                "feedback": "不對，這段代碼的寫法會創建一個串列，該串列只會包含一個元素，即變數 a 所指向的值。"
+            },
+            {
+                "answer": "a[]",
+                "correct": false,
+                "feedback": "雖然這嘗試使用索引，但它並未指定應該從 a 中取出哪個元素。"
+            },
+            {
+                "answer": "x = [8]",
+                "correct": false,
+                "feedback": "不對，這是創建一個包含單個元素 8 的串列的例子。"
+            },
+            {
+                "answer": "t = a[0]",
+                "correct": true,
+                "feedback": "是的，這會使用索引來獲取 a 的第一個元素的值。"
+            }
+        ]
+    }
+]

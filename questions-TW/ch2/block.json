@@ -1,0 +1,28 @@
+[
+    {
+        "question": "在 if 和 else 行下方的縮排程式碼區塊中，可以出現多少行程式碼（敘述）？",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "只有一行。",
+                "correct": false,
+                "feedback": "每個區塊也可以包含多於一行的程式碼。"
+            },
+            {
+                "answer": "零行或更多行。",
+                "correct": false,
+                "feedback": "每個區塊至少必須包含一行程式碼。"
+            },
+            {
+                "answer": "一行或更多行。",
+                "correct": true,
+                "feedback": "正確，每個區塊至少必須包含一行程式碼，而且可以有多行。"
+            },
+            {
+                "answer": "一行或更多行，且每個區塊中的行數必須相同。",
+                "correct": false,
+                "feedback": "不同的區塊可以包含不同數量的程式碼行。"
+            }
+        ]
+    }
+]
