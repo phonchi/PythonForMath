@@ -1,30 +1,22 @@
 [
     {
-        "front": "key-value",
-        "back": "A pair consisting of a key and its associated value, as used in dictionaries."
+        "front": "鍵值對",
+        "back": "由一個鍵及其關聯的值組成的對，通常用於字典中。"
     },
     {
-        "front": "key",
-        "back": "An immutable identifier used to access a corresponding value in a dictionary."
+        "front": "鍵",
+        "back": "一個不可變的識別符，用來在字典中存取對應的值。"
     },
     {
-        "front": "value",
-        "back": "The data associated with a key in a dictionary."
+        "front": "值",
+        "back": "與字典中一個鍵關聯的數據。"
     },
     {
-        "front": "dictionary",
-        "back": "A collection of key-value pairs where each key is unique."
+        "front": "字典",
+        "back": "一個包含鍵值對的集合，其中每個鍵都是唯一的。"
     },
     {
-        "front": "set",
-        "back": "An unordered collection of unique elements."
-    },
-    {
-        "front": "dictionary comprehension",
-        "back": "A concise way to create dictionaries from iterables using a single expression."
-    },
-    {
-        "front": "set comprehension",
-        "back": "A concise way to create sets from iterables using a single expression."
+        "front": "字典生成式",
+        "back": "一種使用單一敘述式從可迭代對象創建字典的簡潔方式。"
     }
 ]
