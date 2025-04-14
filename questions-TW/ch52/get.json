@@ -1,28 +1,28 @@
 [
     {
-        "question": "What is printed by the following statements?",
-        "code": "d = {\"name\": \"Alice\", \"age\": 25}\nprint(d.get(\"name\"))\nprint(d.get(\"gender\", \"Not Specified\"))",
+        "question": "以下語句會印出什麼？",
+        "code": "d = {\"name\": \"Alice\", \"年齡\": 25}\nprint(d.get(\"name\"))\nprint(d.get(\"性別\", \"未提供\"))",
         "type": "multiple_choice",
         "answers": [
             {
-                "answer": "Alice\nNot Specified",
+                "code": "Alice\n未提供",
                 "correct": true,
-                "feedback": "Correct! The get() method returns the value for 'name' which is 'Alice' and returns the default 'Not Specified' for the missing key 'gender'."
+                "feedback": "正確！`get()` 方法返回 'name' 的值 'Alice'，對於缺少的 '性別' 鍵，返回預設值 '未提供'。"
             },
             {
-                "answer": "Alice\nNone",
+                "code": "Alice\nNone",
                 "correct": false,
-                "feedback": "Incorrect. Since a default value is provided for the 'gender' key, get() returns 'Not Specified' instead of None."
+                "feedback": "錯誤。由於提供了 '性別' 鍵的預設值，`get()` 返回 '未提供' 而不是 None。"
             },
             {
-                "answer": "None\nNot Specified",
+                "code": "None\n未提供",
                 "correct": false,
-                "feedback": "Incorrect. The key 'name' exists in the dictionary, so it returns 'Alice', not None."
+                "feedback": "錯誤。'name' 鍵在字典中存在，因此返回 'Alice'，而不是 None。"
             },
             {
-                "answer": "Error",
+                "code": "Error",
                 "correct": false,
-                "feedback": "Incorrect. The get() method safely returns a default value for missing keys instead of raising an error."
+                "feedback": "錯誤。`get()` 方法安全地返回缺少鍵的預設值，而不是引發錯誤。"
             }
         ]
     }

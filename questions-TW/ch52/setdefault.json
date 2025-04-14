@@ -1,28 +1,28 @@
 [
     {
-        "question": "What is the final state of the dictionary 'd' after executing the following statements?",
+        "question": "執行以下語句後，字典 'd' 的最終狀態為何？",
         "code": "d = {\"a\": \"alpha\"}\nd.setdefault(\"a\", \"ALPHA\")\nd.setdefault(\"b\", \"beta\")\nd.setdefault(\"c\", \"gamma\")\nprint(d)",
         "type": "multiple_choice",
         "answers": [
             {
                 "answer": "{\"a\": \"alpha\", \"b\": \"beta\", \"c\": \"gamma\"}",
                 "correct": true,
-                "feedback": "Correct! The key 'a' already exists, so its value remains \"alpha\". The keys 'b' and 'c' are added with the values \"beta\" and \"gamma\" respectively."
+                "feedback": "正確！'a' 這個鍵已經存在，因此它的值保持為 \"alpha\"。'b' 和 'c' 被添加到字典中，對應的值分別是 \"beta\" 和 \"gamma\"。"
             },
             {
                 "answer": "{\"a\": \"ALPHA\", \"b\": \"beta\", \"c\": \"gamma\"}",
                 "correct": false,
-                "feedback": "Incorrect. The setdefault() method does not change the value of an existing key; therefore, 'a' remains \"alpha\"."
+                "feedback": "錯誤。`setdefault()` 方法不會改變已存在鍵的值；因此，'a' 的值仍然是 \"alpha\"。"
             },
             {
                 "answer": "{\"a\": \"alpha\", \"b\": \"beta\"}",
                 "correct": false,
-                "feedback": "Incorrect. While key 'a' is unchanged, key 'c' is also added to the dictionary with its default value."
+                "feedback": "錯誤。雖然 'a' 的鍵未改變，但 'c' 鍵也被添加到字典中，並且其值為默認值。"
             },
             {
                 "answer": "{\"a\": \"ALPHA\", \"b\": \"beta\"}",
                 "correct": false,
-                "feedback": "Incorrect. The final dictionary should include the key 'c' with its default value, and the value for 'a' remains unchanged."
+                "feedback": "錯誤。最終字典應該包括 'c' 鍵及其默認值，而 'a' 的值保持不變。"
             }
         ]
     }

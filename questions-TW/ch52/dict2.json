@@ -1,28 +1,28 @@
 [
     {
-        "question": "What is printed by the following statements?",
-        "code": "d = {\"fruit\": \"apple\", \"quantity\": 10, \"price\": 2.5}\nprint(list(d.keys()))\nprint(list(d.values()))\nprint(list(d.items()))",
+        "question": "以下語句會輸出什麼？",
+        "code": "d = {\"水果\": \"蘋果\", \"數量\": 10, \"價錢\": 2.5}\nprint(list(d.keys()))\nprint(list(d.values()))\nprint(list(d.items()))",
         "type": "multiple_choice",
         "answers": [
             {
-                "answer": "[\"fruit\", \"quantity\", \"price\"]\n[\"apple\", 10, 2.5]\n[(\"fruit\", \"apple\"), (\"quantity\", 10), (\"price\", 2.5)]",
+                "code": "[\"水果\", \"數量\", \"價錢\"]\n[\"蘋果\", 10, 2.5]\n[(\"水果\", \"蘋果\"), (\"數量\", 10), (\"價錢\", 2.5)]",
                 "correct": true,
-                "feedback": "Correct! Converting the keys, values, and items to lists returns the expected results in the order of insertion."
+                "feedback": "正確！將鍵、值和項目轉換為串列，會返回預期的結果，並保持插入的順序。"
             },
             {
-                "answer": "[\"fruit\", \"quantity\", \"price\"]\n[(\"fruit\", \"apple\"), (\"quantity\", 10), (\"price\", 2.5)]\n[\"apple\", 10, 2.5]",
+                "code": "[\"水果\", \"數量\", \"價錢\"]\n[(\"水果\", \"蘋果\"), (\"數量\", 10), (\"價錢\", 2.5)]\n[\"蘋果\", 10, 2.5]",
                 "correct": false,
-                "feedback": "Incorrect. The output order should be keys first, then values, and finally key-value pairs."
+                "feedback": "不正確。輸出順序應該是鍵、值，最後是鍵-值對。"
             },
             {
-                "answer": "[\"fruit\", \"quantity\", \"price\"]\n[\"apple\", 10, 2.5]\n[\"fruit\", \"apple\", \"quantity\", 10, \"price\", 2.5]",
+                "code": "[\"水果\", \"數量\", \"價錢\"]\n[\"蘋果\", 10, 2.5]\n[\"水果\", \"蘋果\", \"數量\", 10, \"價錢\", 2.5]",
                 "correct": false,
-                "feedback": "Incorrect. The items() method returns a list of tuples, not a flattened list of values."
+                "feedback": "不正確。`items()`方法返回的是一個元組的串列，而不是扁平化的值串列。"
             },
             {
-                "answer": "It prints the dictionary’s keys, values, and items without converting them to lists.",
+                "code": "它輸出字典的鍵、值和項目，而不將它們轉換為串列。",
                 "correct": false,
-                "feedback": "Incorrect. Since list() is used, the view objects are converted into lists, which formats the output as shown in the correct answer."
+                "feedback": "不正確。由於使用了`list()`，視圖對象會被轉換成串列，這使得輸出格式如正確答案所示。"
             }
         ]
     }

@@ -1,28 +1,28 @@
 [
     {
-        "question": "What is printed by the following statements?",
+        "question": "以下語句會印出什麼？",
         "code": "d1 = {\"a\": 1, \"b\": 2}\nd2 = d1\nd2[\"a\"] = 99\nprint(d1)",
         "type": "multiple_choice",
         "answers": [
             {
                 "answer": "{\"a\": 99, \"b\": 2}",
                 "correct": true,
-                "feedback": "Correct! Since d2 is just a reference to d1, modifying d2 also changes d1."
+                "feedback": "正確！由於 d2 只是 d1 的參照，修改 d2 也會改變 d1。"
             },
             {
                 "answer": "{\"a\": 1, \"b\": 2}",
                 "correct": false,
-                "feedback": "Incorrect. d2 is not a separate copy; it refers to the same dictionary as d1."
+                "feedback": "錯誤。d2 不是獨立的副本；它指向與 d1 相同的字典。"
             },
             {
                 "answer": "{\"a\": 99, \"b\": 2, \"a\": 1}",
                 "correct": false,
-                "feedback": "Incorrect. Dictionaries cannot have duplicate keys; the key 'a' is overwritten."
+                "feedback": "錯誤。字典不能有重複的鍵；鍵 'a' 被覆蓋了。"
             },
             {
-                "answer": "An error occurs due to reassignment.",
+                "answer": "因為重新賦值發生錯誤",
                 "correct": false,
-                "feedback": "Incorrect. The code runs without error because assignment simply creates another reference to the same dictionary."
+                "feedback": "錯誤。程式碼執行不會出錯，因為賦值只會創建另一個指向同一字典的參照。"
             }
         ]
     }
