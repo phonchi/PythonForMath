@@ -20,7 +20,7 @@
 3. [函數](03_Function.ipynb)
 4. [串列與元組](04_Lists_tuples.ipynb)
 5. [字串操作](05_Manipulating_string.ipynb)
-6. [字典](052_Dictionaries_sets.ipynb)
+6. [字典](052_Dictionaries.ipynb)
 
 ## 參考資源
 1. [為你自己學 Python](https://pythonbook.cc/chapters/basic/introduction)
