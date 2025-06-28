@@ -25,5 +25,6 @@
 ## 參考資源
 1. [為你自己學 Python](https://pythonbook.cc/chapters/basic/introduction)
 2. [Python技術手冊](https://openhome.cc/zh-tw/python/)
-3. [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/2e/)
-4. [Foundations of Python Programming: Functions First](https://runestone.academy/ns/books/published/foppff/fopp-ff.html)
+3. [Python 逐步執行](https://pythontutor.com/visualize.html#mode=edit)
+4. [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/2e/)
+5. [Foundations of Python Programming: Functions First](https://runestone.academy/ns/books/published/foppff/fopp-ff.html)
