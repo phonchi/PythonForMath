@@ -15,7 +15,7 @@
 
 
 ## Table of Contents
-1. [Python 基礎 - 字串、數字與變數](01_Python_zh-TW.ipynb)
+1. [Python 基礎 - 字串、數字與變數](01_Python.ipynb)
 2. [布林值與流程控制](02_Flow_control.ipynb)
 3. [函數](03_Function.ipynb)
 4. [串列與元組](04_Lists_tuples.ipynb)
