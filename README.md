@@ -14,8 +14,8 @@
 3. 用 [Colab](https://colab.research.google.com/?hl=zh-tw) 開啟相關資源
 
 ### 其他方式
-1. 可以用電腦教室的VS Code開啟。
-2. 可以用電腦教室的Jupyter notebook開啟。
+1. 可以用電腦教室的VS Code開啟 `ipynb`檔。
+2. 可以用電腦教室的Jupyter notebook開啟 `ipynb`檔。
 
 ## Table of Contents
 1. [Python 基礎 - 字串、數字與變數](01_Python.ipynb)
