@@ -13,7 +13,7 @@
 2. 下載[課程相關檔案](https://github.com/phonchi/PythonForMath/archive/refs/heads/main.zip) 並將下載檔案`PythonForMath-main.zip`解壓縮後上傳到 Google 雲端硬碟
 3. 用 [Colab](https://colab.research.google.com/?hl=zh-tw) 開啟雲端硬碟相關資源
 
-### 其他方式
+### 其他方式 (如果沒有GMAIL帳號)
 1. 可以用電腦教室的VS Code開啟 `ipynb`檔。
 2. 可以用電腦教室的Jupyter notebook開啟 `ipynb`檔。
 
