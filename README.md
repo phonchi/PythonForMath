@@ -9,9 +9,9 @@
 3. 打開[jupyter notebook](https://blog.darkthread.net/blog/jupyter-notebook/)並開啟相關講義
 
 ### 在 Colab 上開啟講義
-1. 申請 [Colab](https://colab.research.google.com/?hl=zh-tw)) (GMAIL) 帳號
+1. 申請 [Colab](https://colab.research.google.com/?hl=zh-tw) (GMAIL) 帳號
 2. 下載[課程相關檔案](https://github.com/phonchi/PythonForMath) 並上傳到 Google 雲端硬碟
-3. 用 [Colab](https://colab.research.google.com/?hl=zh-tw)) 開啟相關資源
+3. 用 [Colab](https://colab.research.google.com/?hl=zh-tw) 開啟相關資源
 
 ### 其他方式
 1. 可以用電腦教室的VS Code開啟。
