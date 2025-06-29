@@ -5,13 +5,13 @@
 ## 課前準備
 若希望用自己的電腦上課，或是希望在家也能自學，請依以下流程安裝軟體並下載課程：  
 1. 參考[安裝指南](https://vocus.cc/article/666ea96cfd89780001fb1289)下載並安裝 [Anaconda](https://www.anaconda.com/download/success)
-2. 下載[課程相關檔案](https://github.com/phonchi/PythonForMath/archive/refs/heads/main.zip)
+2. 下載[課程相關檔案](https://github.com/phonchi/PythonForMath/archive/refs/heads/main.zip)並將下載檔案`PythonForMath-main.zip`解壓縮
 3. 打開[jupyter notebook](https://blog.darkthread.net/blog/jupyter-notebook/)並開啟相關講義
 
 ### 在 Colab 上開啟講義
 1. 申請 [Colab](https://colab.research.google.com/?hl=zh-tw) (GMAIL) 帳號
-2. 下載[課程相關檔案](https://github.com/phonchi/PythonForMath/archive/refs/heads/main.zip) 並上傳到 Google 雲端硬碟
-3. 用 [Colab](https://colab.research.google.com/?hl=zh-tw) 開啟相關資源
+2. 下載[課程相關檔案](https://github.com/phonchi/PythonForMath/archive/refs/heads/main.zip) 並將下載檔案`PythonForMath-main.zip`解壓縮後上傳到 Google 雲端硬碟
+3. 用 [Colab](https://colab.research.google.com/?hl=zh-tw) 開啟雲端硬碟相關資源
 
 ### 其他方式
 1. 可以用電腦教室的VS Code開啟 `ipynb`檔。
