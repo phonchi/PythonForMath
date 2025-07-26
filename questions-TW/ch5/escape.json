@@ -5,7 +5,7 @@
         "type": "multiple_choice",
         "answers": [
             {
-                "code": "Hello\nWorld!\tWelcome to \"Python\" programming.\\",
+                "code": "Hello\nWorld!   \tWelcome to \"Python\" programming.\\",
                 "correct": true,
                 "feedback": "正確！跳脫字元 \\n 會產生換行，\\t 會產生 Tab 鍵，\\\" 會顯示雙引號，而 \\\\ 會顯示反斜線。"
             },
